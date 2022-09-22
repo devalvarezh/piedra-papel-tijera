@@ -33,11 +33,9 @@ if ganador1 == ganador2:
             or (usuario == "papel" and computador == "piedra")):
             print("Punto para ti")
             ganador1 += 1
-            print(f"¡Ganaste! Marcador final: {ganador1} a {ganador2}")
         else:
             print("Punto para el computador")
             ganador2 += 1
-            print(f"¡Perdiste! Marcador final: {ganador2} a {ganador1}")
 
 if ganador1 > ganador2:
     print(f"¡Ganaste! Marcador final: {ganador1} a {ganador2}")
